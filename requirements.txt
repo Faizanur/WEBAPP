@@ -1,0 +1,15 @@
+altair
+pandas
+streamlit
+google-api-core
+google-auth
+firebase_admin==6.1.0
+google-cloud-firestore
+numpy
+plotly
+pydeck 
+Pillow
+datetime
+matplotlib
+scipy>=1.7.1
+openpyxl
