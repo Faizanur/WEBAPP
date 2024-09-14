@@ -48,7 +48,7 @@ def get_firestore_data(query):
 st.set_page_config(layout="wide")
 st.title("Farm Analytics")
 
-db = firestore.Client.from_service_account_json("WEBB_APP_TREBIRTH/testdata1-20ec5-firebase-adminsdk-an9r6-a87cacba1d.json")
+db = firestore.Client.from_service_account_json("TB_WEbapp/testdata1-20ec5-firebase-adminsdk-an9r6-d15c118c96.json")
 
 # Fetch the most recent scan data from the "demo_db" collection
 def get_recent_scans(db, num_scans=2):
